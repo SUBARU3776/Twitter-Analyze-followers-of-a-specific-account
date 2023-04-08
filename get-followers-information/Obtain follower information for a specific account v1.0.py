@@ -1,6 +1,5 @@
 # simple python script to retrieve a Twitter user's followers
 # and save some useful metadata for each in CSV format
-#
 # this is intended as a simple example, and various optimizations
 # for efficiency and robustness are possible
 
