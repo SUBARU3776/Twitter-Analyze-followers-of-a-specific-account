@@ -23,4 +23,5 @@
 
 ###### Visualize follower information v1.0.py
 - The colors variable is set to the information used to divide the colors according to whether or not the user has ever "liked" the site.
-- After processing the DataFrame object, a graph is created using Bokeh.
+- After processing the DataFrame object, a graph is created using Bokeh.![bokeh_plot (2)](https://user-images.githubusercontent.com/71259928/231038765-44a7f8bb-074e-4cbf-99cb-0618a2284a68.png)
+
