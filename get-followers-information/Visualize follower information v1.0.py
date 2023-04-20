@@ -5,7 +5,9 @@
  
 import pandas as pd
 import bokeh.plotting as bk
- 
+import os
+os.chdir('D:\hogehoge.csv')
+
 def follower_scatter_plot (followers, handle, opacity_norm=5000,
         bubble_size=4, color=(0,90,180), cat_column=None, 
         cat_colors=None, start=None, end=None,
