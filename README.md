@@ -8,9 +8,10 @@
 - 取得した情報はrowsリストに格納され、取得できるフォロワーの数に応じて複数回のAPI呼び出しを行っています。
 - rowsリストをデータフレームに変換しCSVファイルに書き出しています。
 
-###### Visualize follower information v1.0.py
+###### Visualize follower information 
 - colors変数には、「いいね」したことがあるかどうかによって、色を分けるための情報が設定されています。
 - DataFrameオブジェクトを加工してから、Bokehを使ってグラフを作成します。<br>
+※Python 3.11.1での動作確認済み
 *******************************************************************************************************************************************************
 ### This script uses the Twitter API to retrieve information about followers of a specific Twitter account and visualize the follower data.
 ### It is useful for analyzing fake followers.
@@ -21,7 +22,7 @@
 - The acquired information is stored in arows list and multiple API calls are made depending on the number of followers that can be acquired.
 - The rows list is converted to a data frame and exported to a CSV file.
 
-###### Visualize follower information v1.0.py
+###### Visualize follower information 
 - The colors variable is set to the information used to divide the colors according to whether or not the user has ever "liked" the site.
 - After processing the DataFrame object, a graph is created using Bokeh.![bokeh_plot (2)](https://user-images.githubusercontent.com/71259928/231038765-44a7f8bb-074e-4cbf-99cb-0618a2284a68.png)
 
